@@ -1,7 +1,7 @@
 ---
 classes:
  - 'profile::base'
- - 'ufprovisioning::base'
+ - 'ufprovisioning'
 
 ntp::servers:
   - 0.us.pool.ntp.org
