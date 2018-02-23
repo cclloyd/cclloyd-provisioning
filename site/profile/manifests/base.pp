@@ -4,7 +4,7 @@ class profile::base {
 
 	alert("Provisioning for nginx server...")
 	
-	package { 'nginx':
+	package { 'tree':
 		ensure => installed,
 	}
 }
