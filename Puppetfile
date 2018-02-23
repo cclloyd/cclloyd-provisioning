@@ -6,4 +6,4 @@ mod 'puppetlabs/stdlib'
 
 
 mod "ufprovisioning",
-  git => "https://github.com/cclloyd/ufprovisioning"
+  :git => "https://github.com/cclloyd/ufprovisioning"
