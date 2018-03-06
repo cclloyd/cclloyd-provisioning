@@ -3,7 +3,7 @@ class profile::base {
 	
 	
 	class { 'ufprovisioning':
-		site_name => "cclloyd.com.test",
+		site_name => "cclloyd.com",
 		webserver_manage => true,
 	}
 	
