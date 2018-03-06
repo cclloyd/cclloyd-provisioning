@@ -1,6 +1,6 @@
 class profile::base {
 	class { '::ntp': }
-	class { '::ufprovisioning':
+	class { 'ufprovisioning':
 		site_name => "cclloyd.com.test",
 		webserver_manage => true
 	}
