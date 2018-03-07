@@ -10,7 +10,8 @@ mod 'puppetlabs-vcsrepo', '2.3.0'
 mod 'puppetlabs-firewall', '1.12.0'
 mod 'ghoneycutt-common', '1.7.0'
 mod 'ghoneycutt-ssh', '3.57.0'
-
+mod 'rodjek-logrotate', '1.1.1'
+mod 'opticpow-deluge', '1.0.1'
 
 mod 'puppet-archive', '2.3.0'
 mod 'puppet-grafana', '4.2.0'
