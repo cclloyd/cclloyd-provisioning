@@ -12,9 +12,12 @@ mod 'ghoneycutt-common', '1.7.0'
 mod 'ghoneycutt-ssh', '3.57.0'
 
 
-	mod 'puppetlabs-inifile', '2.2.0'
-	mod 'puppetlabs-vcsrepo', '2.3.0'
-	mod 'stahnma-epel', '1.3.0'
+mod 'puppet-archive', '2.3.0'
+mod 'puppet-grafana', '4.2.0'
+
+mod 'puppetlabs-inifile', '2.2.0'
+mod 'puppetlabs-vcsrepo', '2.3.0'
+mod 'stahnma-epel', '1.3.0'
 mod 'puppet-letsencrypt', '2.3.0'
 
 mod 'puppet-nginx', '0.10.0'
