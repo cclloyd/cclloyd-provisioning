@@ -12,6 +12,7 @@ mod 'ghoneycutt-common', '1.7.0'
 mod 'ghoneycutt-ssh', '3.57.0'
 #mod 'rodjek-logrotate', '1.1.1'
 #mod 'opticpow-deluge', '1.0.1'
+mod 'hackerhorse-puppet_freebsd_deluge', '1.0.0'
 mod 'hackerhorse-puppet_deluge', '0.2.0'
 
 mod 'puppet-archive', '2.3.0'
