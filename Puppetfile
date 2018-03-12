@@ -29,7 +29,8 @@ mod 'puppet-nginx', '0.10.0'
 mod 'mayflower-php', '4.0.0-beta1'
 mod 'willdurand-composer', '1.2.6'
 
-mod 'puppet-nodejs', '5.0.0'
+#mod 'puppet-nodejs', '5.0.0'
+mod 'willdurand-nodejs', '2.0.0'
 mod 'puppetlabs-postgresql', '5.3.0'
 
 
