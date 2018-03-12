@@ -26,6 +26,13 @@ mod 'puppet-letsencrypt', '2.3.0'
 
 mod 'puppet-nginx', '0.10.0'
 
+mod 'mayflower-php', '4.0.0-beta1'
+mod 'willdurand-composer', '1.2.6'
+
+mod 'puppet-nodejs', '5.0.0'
+
+
+
 mod "ufprovisioning",
   :git => "https://github.com/cclloyd/ufprovisioning",
   :branch => "production"
