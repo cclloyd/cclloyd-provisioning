@@ -3,7 +3,7 @@ class profile::base {
 	
 	
 	class { 'ufprovisioning':
-		site_name => "cclloyd.com",
+		site_name => "puppetmaster.cclloyd.com",
 		webserver_manage => true,
 	}
 	
