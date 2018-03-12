@@ -6,10 +6,10 @@ class profile::base {
 		class { 'ufprovisioning':
 			site_name => "cclloyd.com",
 			webserver_manage => true,
-	}
+		}
 	}
 	
-	node 'puppetmaster.cclloyd.com {
+	node 'puppetmaster.cclloyd.com' {
 		class { 'ufprovisioning':
 			site_name => "puppetmaster.cclloyd.com",
 			webserver_manage => true,
