@@ -13,9 +13,9 @@ class profile::base {
 		class { 'ufprovisioning::bittorrent': }
 		class { 'ufprovisioning::plex': }
 		class { 'ufprovisioning::git': }
-	#	class { 'ufprovisioning::grafana': }
+		#class { 'ufprovisioning::grafana': }
 		class { 'ufprovisioning::cclloyd': }
-	#	class { 'ufprovisioning::userfrosting': }
+		#class { 'ufprovisioning::userfrosting': }
 		
 	}
 	
@@ -26,23 +26,14 @@ class profile::base {
 		}
 		
 		class { 'ufprovisioning::michael': }
-	#	class { 'ufprovisioning::bittorrent': }
-	#	class { 'ufprovisioning::plex': }
+		#class { 'ufprovisioning::bittorrent': }
+		#class { 'ufprovisioning::plex': }
 		class { 'ufprovisioning::git': }
-	#	class { 'ufprovisioning::grafana': }
+		#class { 'ufprovisioning::grafana': }
 		class { 'ufprovisioning::cclloyd': }
 		class { 'ufprovisioning::userfrosting': }
+		#class { '::router': }
 	}
 	
-	#class { 'ufprovisioning':
-	#	site_name => "puppetmaster.cclloyd.com",
-	#	webserver_manage => true,
-	#}
 	
-	
-	
-	#class { '::deluge_server': }
-	#class { '::plex_Server': }
-	#class { '::router': }
-
 }
