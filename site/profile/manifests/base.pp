@@ -7,6 +7,16 @@ class profile::base {
 			site_name => "cclloyd.com",
 			webserver_manage => true,
 		}
+		
+		
+		class { 'ufprovisioning::michael': }
+		class { 'ufprovisioning::bittorrent': }
+		class { 'ufprovisioning::plex': }
+		class { 'ufprovisioning::git': }
+	#	class { 'ufprovisioning::grafana': }
+		class { 'ufprovisioning::cclloyd': }
+	#	class { 'ufprovisioning::userfrosting': }
+		
 	}
 	
 	node 'puppetmaster.cclloyd.com' {
@@ -14,6 +24,14 @@ class profile::base {
 			site_name => "puppetmaster.cclloyd.com",
 			webserver_manage => true,
 		}
+		
+		class { 'ufprovisioning::michael': }
+	#	class { 'ufprovisioning::bittorrent': }
+	#	class { 'ufprovisioning::plex': }
+		class { 'ufprovisioning::git': }
+	#	class { 'ufprovisioning::grafana': }
+		class { 'ufprovisioning::cclloyd': }
+		class { 'ufprovisioning::userfrosting': }
 	}
 	
 	#class { 'ufprovisioning':
