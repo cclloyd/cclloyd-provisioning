@@ -17,6 +17,7 @@ class profile::base {
 		class 	{ 'ufprovisioning::cclloyd': }
 		#class	{ 'ufprovisioning::userfrosting': }
 		class	{ 'ufprovisioning::cloud9': }
+		class	{ 'ufprovisioning::django': }
 		
 	}
 	
