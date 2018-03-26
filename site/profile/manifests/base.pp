@@ -33,7 +33,8 @@ class profile::base {
 		class { 'ufprovisioning::git': }
 		#class { 'ufprovisioning::grafana': }
 		class { 'ufprovisioning::cclloyd': }
-		class { 'ufprovisioning::userfrosting': }
+		#class { 'ufprovisioning::userfrosting': }
+		class { 'ufprovisioning::django': }
 		#class { '::router': }
 	}
 	
