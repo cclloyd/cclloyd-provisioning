@@ -33,6 +33,7 @@ mod 'willdurand-composer', '1.2.6'
 mod 'willdurand-nodejs', '2.0.0'
 mod 'puppetlabs-postgresql', '5.3.0'
 
+mod 'ajcrowe-supervisord', '0.6.1'
 
 
 mod "ufprovisioning",
