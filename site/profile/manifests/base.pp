@@ -18,6 +18,7 @@ class profile::base {
 		#class	{ 'ufprovisioning::userfrosting': }
 		class	{ 'ufprovisioning::cloud9': }
 		class	{ 'ufprovisioning::django': }
+		class	{ 'ufprovisioning::owncloud': }
 		
 	}
 	
@@ -48,11 +49,11 @@ class profile::base {
 		class { 'ufprovisioning::michael': }
 		#class { 'ufprovisioning::bittorrent': }
 		#class { 'ufprovisioning::plex': }
-		class { 'ufprovisioning::git': }
+		#class { 'ufprovisioning::git': }
 		#class { 'ufprovisioning::grafana': }
-		class { 'ufprovisioning::cclloyd': }
+		#class { 'ufprovisioning::cclloyd': }
 		#class { 'ufprovisioning::userfrosting': }
-		class { 'ufprovisioning::django': }
+		#class { 'ufprovisioning::django': }
 		#class { '::router': }
 	}
 	
