@@ -16,9 +16,10 @@ class profile::base {
 		#class	{ 'ufprovisioning::grafana': }
 		class 	{ 'ufprovisioning::cclloyd': }
 		#class	{ 'ufprovisioning::userfrosting': }
-		class	{ 'ufprovisioning::cloud9': }
-		class	{ 'ufprovisioning::django': }
-		class	{ 'ufprovisioning::owncloud': }
+		#class	{ 'ufprovisioning::cloud9': }
+		#class	{ 'ufprovisioning::django': }
+		#class	{ 'ufprovisioning::owncloud': }
+		class	{ 'ufprovisioning::reactstack': }
 		
 	}
 	
