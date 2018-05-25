@@ -20,7 +20,8 @@ class profile::base {
 		#class	{ 'ufprovisioning::django': }
 		#class	{ 'ufprovisioning::owncloud': }
 		class	{ 'ufprovisioning::reactstack': }
-		
+		class	{ 'ufprovisioning::filehost': }
+
 	}
 	
 	node 'puppetmaster.cclloyd.com' {
