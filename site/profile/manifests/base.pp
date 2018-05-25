@@ -20,7 +20,6 @@ class profile::base {
 		#class	{ 'ufprovisioning::django': }
 		#class	{ 'ufprovisioning::owncloud': }
 		class	{ 'ufprovisioning::reactstack': }
-		class	{ 'ufprovisioning::filehost': }
 
 	}
 	
@@ -49,7 +48,8 @@ class profile::base {
 		}
 		
 		class { 'ufprovisioning::michael': }
-		#class { 'ufprovisioning::bittorrent': }
+		class	{ 'ufprovisioning::filehost': }
+c		#class { 'ufprovisioning::bittorrent': }
 		#class { 'ufprovisioning::plex': }
 		#class { 'ufprovisioning::git': }
 		#class { 'ufprovisioning::grafana': }
