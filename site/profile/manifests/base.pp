@@ -49,7 +49,7 @@ class profile::base {
 		
 		class { 'ufprovisioning::michael': }
 		class	{ 'ufprovisioning::filehost': }
-c		#class { 'ufprovisioning::bittorrent': }
+		#class { 'ufprovisioning::bittorrent': }
 		#class { 'ufprovisioning::plex': }
 		#class { 'ufprovisioning::git': }
 		#class { 'ufprovisioning::grafana': }
